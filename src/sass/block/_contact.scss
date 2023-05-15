@@ -1,0 +1,135 @@
+.contact {
+    position: relative;
+    height: 1000px;
+    padding-top: 60px;
+    &__title {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+    &__subtitle {
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #374754;
+    }
+    &__form {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 415px;
+
+        width: 415px;
+        height: 669px;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+        &-title {
+            text-align: center;
+            margin-top: 52px;
+            height: 20px;
+        }
+        &-name {
+            display: block;
+            margin: 0 auto;
+            width: 313px;
+            height: 54px;
+            background: #F5F5F5;
+            border: 1px solid #E8E8E8;
+            border-radius: 39px;
+
+            padding-left: 20px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            color: #18171D;
+        }
+        &-email {
+            display: block;
+            margin: 0 auto;
+            width: 313px;
+            height: 54px;
+            background: #F5F5F5;
+            border: 1px solid #E8E8E8;
+            border-radius: 39px;
+
+            padding-left: 20px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            color: #18171D;
+        }
+        &-massage {
+            display: block;
+            margin: 0 auto;
+            width: 313px;
+            height: 147px;
+            background: #F5F5F5;
+            border: 1px solid #E8E8E8;
+
+            padding-left: 20px;
+            padding-top: 23px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            color: #18171D;
+        }
+        &-btn {
+            margin-left: 60px;
+            width: 145px;
+            height: 56px;
+            background: #2091F9;
+            border-radius: 35px;
+            border: none;
+
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+        }
+    }
+    &__wrappers {
+        position: absolute;
+        top: 260px;
+        right: 100px;
+        display: flex;
+        justify-content: space-between;
+        width: 560px;
+        &_item {
+            width: 220px;
+            &-icon {
+                display: block;
+                margin: 0 auto;
+            }
+            &-subtitle {
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 23px;
+                text-align: center;
+                letter-spacing: 0.1px;
+                color: #374754;
+            }
+        }
+    }
+    &__map {
+        position: absolute;
+        top: 400px;
+        right: 120px;
+    }
+    &__social {
+        position: absolute;
+        top: 890px;
+        right: 529px
+    }
+}

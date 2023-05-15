@@ -1,0 +1,84 @@
+.features {
+    height: 1120px;
+    padding: 11px 0 52px 0;
+    &__title {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 55px;
+        text-align: center;
+        color: #252B42;
+        margin-top: 15px;
+    }
+    &__stitle {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #374754;
+        margin-top: 17px;
+    }
+    &__wrappers {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 238px;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        margin-top: 20px;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #374754;
+        margin-top: 10px;
+    }
+    &__img {
+        position: relative;
+        height: 585px;
+        img {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-top: 322px;
+            width: 1067px;
+        
+        }
+    }
+
+    &__play-button {
+        display: block;
+        position: relative;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background-color: #2091F9; /* цвет фона кнопки */
+        cursor: pointer;
+        border: none; 
+        top: 280px;
+        left: 375px;
+    }      
+    &__play-button::after {
+        content: "\25B6"; /* символ Unicode для треугольника, направленного вправо */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-40%, -50%);
+            font-size: 50px;
+            color: #fff; /* цвет символа */
+    } 
+}

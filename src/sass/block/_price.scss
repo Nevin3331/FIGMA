@@ -1,0 +1,240 @@
+.price {
+    padding-top: 60px;
+    background: #252B42;
+    height: 970px;
+    &__title {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        margin-top: 17px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        gap: 25px;
+    }
+    &__card {
+        position: relative;
+        margin-top: 70px;
+        width: 295px;
+        height: 607px;
+        background: #FFFFFF;
+        border: 1px solid #DEDEDE;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 10px;
+        &_long {
+            position: relative;
+            margin-top: 35px;
+            width: 295px;
+            height: 693px;
+            background: #2091F9;
+            border: 1px solid #DEDEDE;
+            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+            border-radius: 10px;
+            border: none;
+            &-header {
+                &-title {
+                    margin-top: 43px;
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                }
+                &-subtitle {
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23px;
+                    text-align: center;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                }
+            }
+            &-cost {
+                &-nine {
+                    text-align: center;
+                    margin-top: 20px;
+                    position: absolute;
+                    left: 57px;
+                    font-weight: 700;
+                    font-size: 74px;
+                    line-height: 84px;
+                    letter-spacing: 0.2px;
+                    color: #FFFFFF;
+                }
+                &-ten {
+                    text-align: center;
+                    margin-top: 20px;
+                    position: absolute;
+                    left: 58px;
+                    font-weight: 700;
+                    font-size: 74px;
+                    line-height: 84px;
+                    letter-spacing: 0.2px;
+                    color: #FFFFFF;
+                }
+                &-dollar {
+                    margin-top: 32px;
+                    position: absolute;
+                    left: 143px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                }
+                &-per {
+                    margin-top: 64px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    position: absolute;
+                    left: 143px;
+                }
+            }
+            &-list {
+                text-align: center;
+                margin-top: 131px;
+                list-style-type: none;
+                &-descr {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    letter-spacing: 0.2px;
+                    color: #FFFFFF;
+                    margin-bottom: 10px;
+                }
+            }
+            &-btn {
+                display: block;
+                margin: 0 auto;
+                margin-top: 68px;
+                width: 215px;
+                height: 56px;
+                background: #FFFFFF;
+                border-radius: 35px;
+                border: none;
+    
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #2091F9;
+            }
+
+        }
+
+
+
+
+
+        &-header {
+            &-title {
+                margin-top: 43px;
+                text-align: center;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.1px;
+                color: #252B42;
+            }
+            &-subtitle {
+                text-align: center;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                letter-spacing: 0.1px;
+                color: #374754;
+            }
+        }
+        &-cost {
+            &-nine {
+                text-align: center;
+                margin-top: 20px;
+                position: absolute;
+                left: 57px;
+                font-weight: 700;
+                font-size: 74px;
+                line-height: 84px;
+                letter-spacing: 0.2px;
+                color: #252B42;
+            }
+            &-zero {
+                text-align: center;
+                margin-top: 20px;
+                position: absolute;
+                left: 95px;
+                font-weight: 700;
+                font-size: 74px;
+                line-height: 84px;
+                letter-spacing: 0.2px;
+                color: #252B42;
+            }
+            &-dollar {
+                margin-top: 32px;
+                position: absolute;
+                left: 143px;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.1px;
+                color: #252B42;
+            }
+            &-per {
+                margin-top: 64px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 23px;
+                letter-spacing: 0.1px;
+                color: #374754;
+                position: absolute;
+                left: 143px;
+            }
+        }
+        &-list {
+            text-align: center;
+            margin-top: 131px;
+            list-style-type: none;
+            &-descr {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+                color: #252B42;
+                margin-bottom: 10px;
+            }
+        }
+        &-btn {
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 215px;
+            height: 56px;
+            background: #2091F9;
+            border-radius: 35px;
+            border: none;
+
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+        }
+    }
+}
