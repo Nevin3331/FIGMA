@@ -248,9 +248,10 @@
     }
 
     .features {
-        height: 940px;
+        height: 835px;
         &__img{
             img {
+                margin-top: 210px;
                 width: 576px;
             }
         }
@@ -260,11 +261,12 @@
         &__play-button {
             width: 150px;
             height: 150px;
-            top: 260px;
+            top: 150px;
         }
     }
 
     .fastest {
+        height: 560px;
         &__block {
             display: block;
             margin: 0 auto;
@@ -305,9 +307,8 @@
     }
 
     .light {
-        margin-top: 180px;
         &__block {
-            width: 577px;
+            width: 755px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -318,7 +319,7 @@
         }
         &__action {  
             top: 430px; 
-            width: 577px;
+            width: 755px;
             display: flex;
             justify-content: center;
             align-items: center;
