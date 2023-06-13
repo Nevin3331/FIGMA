@@ -98,7 +98,7 @@
             color: #FFFFFF;
         }
     }
-    &__wrappers {
+    &__wrapper {
         position: absolute;
         top: 260px;
         right: 100px;
@@ -131,5 +131,9 @@
         position: absolute;
         top: 890px;
         right: 529px
+    }
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
     }
 }

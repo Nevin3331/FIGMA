@@ -1,4 +1,8 @@
 .fastest {
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
     position: relative;
     height: 400px;
     &__block {
@@ -20,25 +24,33 @@
             letter-spacing: 0.2px;
             color: #374754;
         }
-        &-btn {
-            margin-top: 60px;
-            width: 236px;
-            height: 60px;
-            background: #2091F9;
-            border-radius: 35px;
-            border: none;
-
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 28px;
-            letter-spacing: 0.1px;
-            color: #FFFFFF;
-            cursor: pointer;
+        &_btn {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;          
+            &-btn {
+                margin-top: 60px;
+                width: 236px;
+                height: 60px;
+                background: #2091F9;
+                border-radius: 35px;
+                border: none;
+    
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
         }
+
     }
-    &__mac {
-        position: absolute;
-        top: 0;
-        right: 107px;
+    &__img {
+        &-mac {
+            position: absolute;
+            top: 0;
+            right: 107px;
+        }
     }
 }

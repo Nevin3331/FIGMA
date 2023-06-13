@@ -9,7 +9,7 @@
         color: #252B42;
         margin-top: 15px;
     }
-    &__stitle {
+    &__subtitle {
         font-weight: 400;
         font-size: 28px;
         line-height: 40px;
@@ -20,7 +20,8 @@
     }
     &__wrappers {
         margin-top: 65px;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 255px);
         justify-content: space-between;
     }
     &__item {
@@ -62,6 +63,7 @@
 
     &__play-button {
         display: block;
+        margin: 0 auto;
         position: relative;
         width: 180px;
         height: 180px;
@@ -70,7 +72,6 @@
         cursor: pointer;
         border: none; 
         top: 280px;
-        left: 375px;
     }      
     &__play-button::after {
         content: "\25B6"; /* символ Unicode для треугольника, направленного вправо */

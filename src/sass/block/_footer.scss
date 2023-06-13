@@ -2,14 +2,17 @@
     background: #252B42;
     height: 567px;
     position: relative;
+
     &__wrapper {
         margin-left: 75px;
         display: flex;
         justify-content: space-between;
         width: 470px;
+
         &-links {
             margin-top: 150px;
             width: 115px;
+
             &-text {
                 font-weight: 700;
                 font-size: 20px;
@@ -17,6 +20,7 @@
                 letter-spacing: 0.1px;
                 color: #FFFFFF;
             }
+
             &-item {
                 font-weight: 400;
                 font-size: 13px;
@@ -25,6 +29,7 @@
                 text-decoration: none;
                 color: #FFFFFF;
                 list-style-type: none;
+
                 a {
                     text-decoration: none;
                     color: #FFFFFF;
@@ -38,14 +43,18 @@
         position: absolute;
         width: 297px;
         margin-top: -280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         &-item {
-            display: flex;
-            align-items: center;
             margin-bottom: 10px;
         }
+
         &-image {
             transform: translateX(-50%);
         }
+
         &-descr {
             display: flex;
             align-items: center;
@@ -55,10 +64,13 @@
             letter-spacing: 0.2px;
             color: #FFFFFF;
         }
+
         &-social {
             transform: translateX(-5%);
             margin-top: 30px;
             width: 135px;
+            display: flex;
+            justify-content: space-between;
         }
     }
 }
