@@ -1,56 +1,54 @@
 .fastest {
-    a {
-        color: #FFFFFF;
-        text-decoration: none;
-    }
     position: relative;
     height: 400px;
     &__block {
-        width: 395px;
-        height: 350px;
-        &-title {
-            font-weight: 400;
-            font-size: 48px;
-            line-height: 55px;
-            letter-spacing: 0.2px;
-            color: #252B42;
-            width: 335px;
-        }
-        &-subtitle {
-            margin-top: 17px;
-            font-weight: 400;
-            font-size: 22px;
-            line-height: 40px;
-            letter-spacing: 0.2px;
-            color: #374754;
-        }
-        &_btn {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;          
-            &-btn {
-                margin-top: 60px;
-                width: 236px;
-                height: 60px;
-                background: #2091F9;
-                border-radius: 35px;
-                border: none;
-    
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 28px;
-                letter-spacing: 0.1px;
-                color: #FFFFFF;
-                cursor: pointer;
+        display: grid;
+        grid-template-columns: repeat(2, 475px);
+        direction: rtl; 
+        justify-content: center;
+        &_head {
+            text-align: center;
+            &-title {
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 55px;
+                letter-spacing: 0.2px;
+                color: #252B42;
+            }
+            &-subtitle {
+                margin-top: 17px;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 40px;
+                letter-spacing: 0.2px;
+                color: #374754;
+            }
+            &_btn {         
+                &-btn {
+                    margin-top: 60px;
+                    width: 236px;
+                    height: 60px;
+                    background: #2091F9;
+                    border-radius: 35px;
+                    border: none;
+        
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
             }
         }
-
-    }
-    &__img {
-        &-mac {
-            position: absolute;
-            top: 0;
-            right: 107px;
+        &-img {
+            &-mac {
+                width: 475px;
+            }
+        }
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
         }
     }
 }
