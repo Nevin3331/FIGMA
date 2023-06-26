@@ -86,6 +86,7 @@
         box-shadow: 0 0 10px 10px rgba(0,0,0,.5);
         justify-items: center;
         justify-content: center;
+        z-index: 3;
     }
     &_block {
         position: relative;
